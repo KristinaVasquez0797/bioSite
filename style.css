@@ -1,0 +1,56 @@
+body {
+    font-size: 16px;
+	background-color: #0C090A;
+   }
+   h1 {
+    font-family: 'Pirata One', cursive, sans-serif;
+	color: #990000;
+    font-weight: 700;
+    font-size: 3.052em;
+    margin: auto;
+    text-align: center;
+}
+   h2 {
+    font-family: 'Nova Cut', cursive;
+	color: #DADBDD;
+    font-weight: 500;
+    font-size: 2.441em;
+    word-spacing: 0.2em;
+    margin: auto;
+    padding: 15px;
+}
+p {
+    font-family: 'Ubuntu Mono', monospace;
+	color: #FFFFFF;
+    font-size:2em;
+    line-height: 1.5em;
+	text-align: justify;
+}
+address {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive,“Times New Roman” serif;
+}
+img {
+	padding: 20px;
+}
+img.icon {
+	padding: 80px;
+}
+a:link{
+    text-decoration: none;
+	color: #DADBDD;
+}
+a:hover {
+    background-color: #191970;
+}
+table {
+        border-spacing: 0 25px;
+		padding-left: 600px;
+      }
+tr, th{
+	text-align: center;
+	font-family: 'Quintessential', cursive;
+	width: 150 px;
+	padding: 5px;
+	font-size: 1.5em;
+}
