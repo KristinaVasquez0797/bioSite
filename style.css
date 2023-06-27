@@ -42,10 +42,12 @@ a:link{
 }
 a:hover {
     background-color: #191970;
+    cursor: grab;
 }
 table {
-        border-spacing: 0 25px;
+        border-spacing: 0 5px;
 		padding-left: 600px;
+        position: fixed;
       }
 tr, th{
 	text-align: center;
@@ -53,4 +55,24 @@ tr, th{
 	width: 150 px;
 	padding: 5px;
 	font-size: 1.5em;
+}
+img.DK1{
+    float: left;
+    padding-left: 0px;
+    padding-top: 75px;
+}
+img.DK2{
+    float: left;
+    padding-left: 1100px;
+    padding-top: 100px;
+}
+h1.DK{
+    position: absolute;
+    padding-left: 575px;
+    padding-top: 400px; 
+}
+h2.occupation{
+    position: absolute;
+    padding-left: 575px;
+    padding-top: 475px; 
 }
