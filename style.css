@@ -1,6 +1,6 @@
 body {
     font-size: 16px;
-	background-color: #0C090A;
+	background-color: #000000;
    }
    h1 {
     font-family: 'Pirata One', cursive, sans-serif;
@@ -40,8 +40,8 @@ a:link{
     text-decoration: none;
 	color: #DADBDD;
 }
-a:hover {
-    background-color: #191970;
+a:hover{
+    background-color:#191970;
     cursor: grab;
 }
 table {
@@ -75,4 +75,11 @@ h2.occupation{
     position: absolute;
     padding-left: 575px;
     padding-top: 475px; 
+}
+img.DKln {
+    position: fixed;
+    padding-left: 450px;
+    padding-top: 20px;
+    height: 45px;
+    width: 45px;
 }
