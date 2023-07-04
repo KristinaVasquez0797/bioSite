@@ -10,6 +10,16 @@ body {
     margin: auto;
     text-align: center;
 }
+h1.about{
+    font-family: 'Pirata One', cursive, sans-serif;
+	color: #990000;
+    font-weight: 700;
+    font-size: 3.052em;
+    margin: auto;
+    text-align: center;
+    padding-top: 45px;
+
+}
    h2 {
     font-family: 'Nova Cut', cursive;
 	color: #DADBDD;
@@ -40,9 +50,14 @@ a:link{
     text-decoration: none;
 	color: #DADBDD;
 }
+a:visited{
+    text-decoration: none;
+	color: #0020C2;
+}
 a:hover{
-    background-color:#191970;
+    background-image: url(test.gif);
     cursor: grab;
+    color:#990000;
 }
 table {
         border-spacing: 0 5px;
