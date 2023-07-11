@@ -2,39 +2,22 @@ body {
     font-size: 16px;
 	background-color: #000000;
    }
-   h1 {
+h1, h1.about, h1.hobbies{
     font-family: 'Pirata One', cursive, sans-serif;
 	color: #990000;
     font-weight: 700;
-    font-size: 3.052em;
-    margin: auto;
-    text-align: center;
-}
-h1.about{
-    font-family: 'Pirata One', cursive, sans-serif;
-	color: #990000;
-    font-weight: 700;
-    font-size: 3.052em;
+    font-size: 75px;
     margin: auto;
     text-align: center;
     padding-top: 45px;
 
 }
-   h2 {
+h2,h2.aboutsub {
     font-family: 'Nova Cut', cursive;
 	color: #DADBDD;
     font-weight: 500;
-    font-size: 2.441em;
-    word-spacing: 0.2em;
-    margin: auto;
-    padding: 15px;
-}
-h2.aboutsub {
-    font-family: 'Nova Cut', cursive;
-	color: #DADBDD;
-    font-weight: 400;
-    font-size: 1.5em;
-    word-spacing: 0.2em;
+    font-size: 50px;
+    word-spacing: 0.3em;
     margin: auto;
     padding: 15px;
 }
@@ -52,23 +35,51 @@ address {
 img {
 	padding: 20px;
 }
-img.icon {
-	padding: 80px;
+button {
+    background-color: #000000;
+    font-family: Quintessential;
+    font-size: 300;
+    color: #DADBDD;
 }
-a:link{
+#stuff{
+margin-top: 2%;
+margin-bottom: 2%;
+display: grid;
+grid-auto-flow: column;
+padding: 3%;
+}
+#tv{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 2%;
+    }
+button:hover{
+    cursor: grab;
+    background-color:#000000;
+    border-color: rgba(5, 99, 241, 0.719);
+    color:#DADBDD;
+}
+button{
+    width: 150;
+    height: 200;
+    padding: 5%;
+}
+nav a:link{
     text-decoration: none;
 	color: #DADBDD;
 }
-a:visited{
+nav a:visited{
     text-decoration: none;
 	color: #0020C2;
 }
-a:hover{
+nav a:hover{
     background-image: url(test.gif);
     cursor: grab;
     color:#990000;
 }
-nav {
+nav{
     position: fixed;
 	padding-left:600px;
 	font-family: 'Quintessential', cursive;
@@ -103,11 +114,41 @@ img.DKln{
     height: 50px;
     width: 50px;
 }
-a.smalllink{
+article a.smalllink{
     text-decoration: none;
 	color: #990000;
 }
 ul{
     font-weight: 200;
 	list-style-position: inside;
+}
+article a.linklist{
+    text-decoration: none;
+    cursor: crosshair;
+	color: #DADBDD;
+}
+a:visited{
+    text-decoration: none;
+	color: #DADBDD;
+}
+button a:link{
+    text-decoration: none;
+    cursor: grabbing;
+}
+button a:visited{
+    text-decoration: none;
+	color: #990000;
+}
+ul.authors{
+list-style: circle;
+display:grid;
+grid-auto-flow: column;
+padding-left: 3%;
+}
+li.names{
+    padding: 1%;
+}
+#bookshelf{
+    display: grid;
+    grid-auto-flow: column;
 }
