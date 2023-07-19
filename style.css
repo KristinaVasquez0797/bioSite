@@ -7,6 +7,7 @@ h1, h1.about, h1.hobbies{
 	color: #990000;
     font-weight: 700;
     font-size: 75px;
+    padding-top: 10px;
     margin: auto;
     text-align: center;
     padding-top: 45px;
@@ -35,11 +36,13 @@ address {
 img {
 	padding: 20px;
 }
-button {
+button{
     background-color: #000000;
     font-family: Quintessential;
-    font-size: 300;
+    font-size: 5px;
     color: #DADBDD;
+    width: 200px ;
+    height: 75px;
 }
 #stuff{
 margin-top: 2%;
@@ -47,6 +50,7 @@ margin-bottom: 2%;
 display: grid;
 grid-auto-flow: column;
 padding: 3%;
+align-items: center;
 }
 #tv{
     margin-top: 2%;
@@ -58,61 +62,65 @@ padding: 3%;
 button:hover{
     cursor: grab;
     background-color:#000000;
-    border-color: rgba(5, 99, 241, 0.719);
+    border-color: rgba(5, 147, 241, 0.733);
+    box-shadow: 0 4px 8px 0  rgba(5, 99, 241, 0.719);
     color:#DADBDD;
 }
-button{
-    width: 150;
-    height: 200;
-    padding: 5%;
-}
+
 nav a:link{
     text-decoration: none;
 	color: #DADBDD;
+    background-color: #000000;
 }
 nav a:visited{
     text-decoration: none;
 	color: #0020C2;
+    background-color:#000000;
 }
 nav a:hover{
-    background-image: url(test.gif);
+    background-image: url(images/background/test.gif);
     cursor: grab;
     color:#990000;
 }
 nav{
     position: fixed;
-	padding-left:600px;
+	padding-left:500px;
+    padding-right: 600px;
 	font-family: 'Quintessential', cursive;
-	width: 150 px;
+	width: 2000 px;
+    height: 20 px;
 	font-size: 3em;
+    overflow: hidden;
+    background-color: #000000;
 }
 img.DK1{
     float: left;
-    padding-left: 0px;
+    padding-left: 20px;
     padding-top: 75px;
 }
 img.DK2{
     float: left;
-    padding-left: 1100px;
-    padding-top: 100px;
+    padding-left: 1150px;
+    padding-top: 50px;
 }
 h1.DK{
     position: absolute;
-    padding-left: 575px;
-    padding-top: 400px; 
+    padding-left: 480px;
+    padding-top: 325px; 
 }
 h2.occupation{
     position: absolute;
-    padding-left: 575px;
-    padding-top: 475px; 
+    padding-left: 480px;
+    padding-top: 400px; 
 }
 img.DKln{
     position: fixed;
     float: right;
-    padding-right: 20px;
+    padding-right: 100px;
     padding-top: 20px;
-    height: 50px;
-    width: 50px;
+    height: 34px;
+    width: 34px;
+    background-color: #000000;
 }
 article a.smalllink{
     text-decoration: none;
@@ -125,7 +133,7 @@ ul{
 article a.linklist{
     text-decoration: none;
     cursor: crosshair;
-	color: #DADBDD;
+	color: #990000;
 }
 a:visited{
     text-decoration: none;
@@ -134,11 +142,13 @@ a:visited{
 button a:link{
     text-decoration: none;
     cursor: grabbing;
+    
 }
 button a:visited{
     text-decoration: none;
-	color: #990000;
+    
 }
+
 ul.authors{
 list-style: circle;
 display:grid;
@@ -151,4 +161,8 @@ li.names{
 #bookshelf{
     display: grid;
     grid-auto-flow: column;
+}
+#main{
+    padding: 20px;
+    overflow: none;
 }
