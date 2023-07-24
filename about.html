@@ -1,55 +1,56 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Daeguen Kim - About</title>
+        <title>Home</title>
         <link rel="stylesheet" href="style.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;1,100&family=Nova+Cut&family=Pirata+One&family=Press+Start+2P&family=Quintessential&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"><Meta name="description"
-        content="Daeguen Kim - Home" />
-        <Meta http-equiv="author"
-        content ="Kristina Vasquez" />
-        <Meta name="keywords"
-        content ="Daeguen, Kim, UCHealth" />
-        <Meta name="robots"
-        content ="nofollow" />
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;1,100&family=Nova+Cut&family=Pirata+One&family=Press+Start+2P&family=Quintessential&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <Meta name="description" content="Daeguen Kim - Home" />
+        <Meta name="author" content ="Kristina Vasquez" />
+        <Meta name="keywords" content ="Daeguen, Kim, UCHealth" />
+        <Meta name="robots" content ="nofollow" />
     </head>
     <body>
-
         <nav>
             <a href="landing.html">Home</a> |
             <a href="about.html">About </a> |
             <a href="hobbies.html">Hobbies</a> |
-			<a href="https://www.linkedin.com/in/daeguen-kim-145448229/"><img src="images/clipart/nee7.png" class="DKln"></a>
+			<a href="https://www.linkedin.com/in/daeguen-kim-145448229/"><img src="images/clipart/nee7.png" class="DKln" alt="linkedin link"></a>
     </nav>
+	<header>
+		<h1> About Me</h1>
+		<a href="#main" class="Skip"><p>Skip to Main content</p></a>
+	</header>
+	
+	<div id="stuff">
+		<form>
+			<label>Inpage navigation</label>
+			<button type="submit" onclick="window.location='#pro'">Professional</button>
+			<button type="submit" onclick="window.location='#cultural'">Cultural</button>
+			<button type="submit" onclick="window.location='#about'">More About Me</button>
+		</form>
 
+</div>
         <div id="main">
-		<h1 class="about"> About Me</h1>
-		
-		</div>
-
-		<div id="stuff">
-			<a href="#pro"><button>Professional</button></a>
-			<a href="#cultural" class="btn"><button>Cultural</button></a>
-			<a href="#about" class="btn"><button>More About Me</button></a>
-	</div>
 
 		<div id="pro">
-		<h2 class="aboutsub" >Professional</h2>
-		
-		<img src="images/DK/DK5.jpg" alt="Daeguen Kim" width="500" height="650" align="right">
-
 
 		<article>
-			<p>I have bachelor’s degree in Psychology and an MBA in Business from <a href="uccs.edu" class="smalllink">UCCS</a> (University of Colorado, Colroado Springs). I am currently a medical staffing coordinator for UCHealth. 
+			<h2 class="aboutsub" >Professional</h2>
+
+			<img src="images/DK/DK5.jpg"  alt="Daeguen Kim on the beach" width="400" height="550" id="dkimg5">
+
+			<p>I have a bachelor’s degree in Psychology and an MBA in Business from <a href="uccs.edu" class="smalllink" target="_blank">UCCS</a> (University of Colorado, Colorado Springs). I am currently a medical staffing coordinator for UCHealth. 
 			Basically, a very focused and specialized version of human resources specifically for doctors at Memorial Hospital. 
 			I make sure that all of their certificates and credentials are up to date and clear for work so that they don’t potentially harm any patients.</p></article>
 			<br>
 			</div>
 
 			<div id="cultural">
-		<h2 class="aboutsub">Cultural</h2>
 		<article>
+			<h2 class="aboutsub">Cultural</h2>
 		<p>I am a Korean American who has a lot of interest in both of my cultures. I like both Korean and American food and both kpop and rock. This can be any form of rock including but not limited to:</p>
 		<ul>
 			<li>Hard rock</li>
@@ -63,17 +64,21 @@
 
 		<div id="about">
 		<article>
-		<h2 class="aboutsub" >If you had a choice on where to live, where would you pick?</h2>
+		<h3 class="aboutsub" >If you had a choice on where to live, where would you pick?</h3>
 		<p>I do have to say the one place that I would love to live and visit is Japan. 
 			Though I am Korean, I feel like I do not fit in in South Korea. There is a lot of safety and comfort in Japan when you slow down and enjoy the moment. 
 			It is an amazing place to visit more than once in my opinion. I am not picky on where I would like to go but I do like Osaka, Kyoto and Tokyo the best.</p>
 		</article>
 			<article>
-			<h2 class="aboutsub" >Who inspires you the most?</h2>
-			<p>Two people I look up to are <a href="https://www.imdb.com/name/nm0000206/" class="smalllink">Keanu Reeves</a> and <a href="https://www.imdb.com/name/nm0005351/" class="smalllink">Ryan Renolds</a>. Ryan Renolds finds the humor in everything and seems to not let anything bring him down.
+			<h3 class="aboutsub" >Who inspires you the most?</h3>
+			<p>Two people I look up to are <a href="https://www.imdb.com/name/nm0000206/" class="smalllink" target="_blank">Keanu Reeves</a> and <a href="https://www.imdb.com/name/nm0005351/" class="smalllink" target="_blank">Ryan Renolds</a>. Ryan Renolds finds the humor in everything and seems to not let anything bring him down.
 			Where as Keanu Reeves has been through hell and back. Through that he has learned to be okay, to be comfortable in his own skin, accept all life has to offer and remain humble through it all.</p>      <br>
-			<a href="#top">Back to Top</a></article>    
+			<a href="#top">Back to Top</a></article>   
 	</div>
 </div>
+
+<footer>
+	<p><script>document.write(new Date().getFullYear());</script> Made by Kristina Vasquez</p>
+</footer>
 		</body>
     </html>
